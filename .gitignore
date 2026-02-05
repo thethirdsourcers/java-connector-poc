@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# AI Agent Metadata
+.agent/
+
+# Secrets & Logs
+.env
+*.log
+
+# OS Noise
+.DS_Store
+Thumbs.db
+desktop.ini
