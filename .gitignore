@@ -1,0 +1,51 @@
+# Master .gitignore for Azmew Java Mono-repo
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.iws
+*.ipr
+
+# OS Noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI Agent Metadata
+.agent/
+
+# Backend (Java/Maven)
+azmew-be/target/
+azmew-be/.mvn/wrapper/maven-wrapper.jar
+azmew-be/.apt_generated
+azmew-be/.classpath
+azmew-be/.factorypath
+azmew-be/.project
+azmew-be/.settings
+azmew-be/.springBeans
+azmew-be/.sts4-cache
+
+# Frontend (React/Node)
+azmew-fe/node_modules/
+azmew-fe/dist/
+azmew-fe/build/
+azmew-fe/.eslintcache
+
+# Security & Secrets
+.env
+azmew-be/.env
+azmew-fe/.env
+*.log
+azmew-be/*.log
+azmew-fe/*.log
+
+# Debug Noise
+*.txt
+!README.md
+!*.md
+debug_sync.txt
+msg_debug.txt
+msg_raw.txt
